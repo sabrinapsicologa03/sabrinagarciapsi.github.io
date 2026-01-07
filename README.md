@@ -1,1 +1,174 @@
-# sabrinagarciapsi.github.io
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Psicóloga Sabrina Garcia | TCC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(180deg, #f5efe8, #ffffff);
+  color: #3a3a3a;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero img {
+  width: 260px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 2.6em;
+  color: #5a3e2b;
+  margin-bottom: 10px;
+}
+
+.hero-text h2 {
+  font-weight: normal;
+  color: #7a5a44;
+}
+
+.hero-text p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 30px;
+  background: #7a5a44;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 40px;
+  font-weight: bold;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2em;
+  color: #5a3e2b;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.cta {
+  background: #f0e6dc;
+  text-align: center;
+  padding: 60px 20px;
+  margin-top: 60px;
+}
+
+footer {
+  background: #5a3e2b;
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container hero">
+  <img src="foto.jpg" alt="Psicóloga Sabrina Garcia">
+  <div class="hero-text">
+    <h1>Sabrina Garcia</h1>
+    <h2>Psicóloga | Terapia Cognitivo-Comportamental</h2>
+
+    <p>
+      Psicóloga formada há <strong>18 anos</strong>, com atuação em
+      <strong>atendimento online e presencial</strong>.
+      Meu trabalho é baseado na Terapia Cognitivo-Comportamental (TCC),
+      ajudando pessoas a compreenderem seus pensamentos, emoções e comportamentos,
+      promovendo mudanças reais, possíveis e duradouras.
+    </p>
+
+    <p><strong>CRP 14142/DF</strong></p>
+
+    <a class="btn" href="https://wa.me/5561982296389">Agende seu atendimento</a>
+  </div>
+</div>
+
+<div class="container">
+  <h2 class="section-title">
+    Desatenção, ansiedade e dificuldades emocionais
+  </h2>
+
+  <div class="cards">
+    <div class="card">Dificuldade de concentração e foco no dia a dia.</div>
+    <div class="card">Preocupação constante e sensação de ansiedade.</div>
+    <div class="card">Desânimo, tristeza ou falta de motivação.</div>
+    <div class="card">Problemas de memória que afetam sua rotina.</div>
+    <div class="card">Sensação de perder o controle das emoções.</div>
+    <div class="card">Relacionamentos afetados pelo estado emocional.</div>
+  </div>
+</div>
+
+<div class="container">
+  <h2 class="section-title">
+    Como a Terapia Cognitivo-Comportamental pode te ajudar
+  </h2>
+
+  <p style="text-align:center; max-width:900px; margin:auto; line-height:1.7;">
+    A Terapia Cognitivo-Comportamental é uma abordagem prática e focada no presente.
+    Ao longo do processo, trabalhamos juntos para identificar padrões de pensamento
+    que impactam suas emoções e comportamentos. A partir disso, desenvolvemos
+    estratégias mais saudáveis e funcionais, respeitando sua história, seus limites
+    e seus objetivos. O foco é que você adquira autonomia emocional e ferramentas
+    para lidar melhor com os desafios da vida.
+  </p>
+</div>
+
+<div class="cta">
+  <h2>Com a terapia você pode:</h2>
+
+  <p>✔ Reduzir a ansiedade e o estresse</p>
+  <p>✔ Desenvolver maior controle emocional</p>
+  <p>✔ Melhorar foco, produtividade e organização</p>
+  <p>✔ Construir relacionamentos mais saudáveis</p>
+  <p>✔ Promover bem-estar e qualidade de vida</p>
+
+  <a class="btn" href="https://wa.me/5561982296389">Agende seu atendimento</a>
+</div>
+
+<footer>
+  <p>© 2026 Psicóloga Sabrina Garcia</p>
+  <p>WhatsApp: (61) 98229-6389</p>
+</footer>
+
+</body>
+</html>
